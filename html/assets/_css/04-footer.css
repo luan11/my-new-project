@@ -1,0 +1,66 @@
+/* footer */
+.plr-footer{
+	padding: 50px 0;
+	position: relative;
+}
+
+.plr-contact-info{
+	border-top: 2px solid #e5e5e5;
+	padding-top: 50px;
+}
+
+.plr-contact-info-item{
+	width: 25%;
+	position: relative;
+	display: block;
+	float: left;
+	vertical-align: middle;
+}
+
+.plr-contact-info-item a, .plr-contact-info-item li, .plr-contact-info-item p, .plr-contact-info-item ul{
+	text-decoration: none;
+	color: #2b2b2b;
+	margin: 0;
+	list-style: none;
+}
+
+.plr-address:before{
+	background-image: url('http://google.pluralmktdigital.com.br/assets/images/icon-mappin.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	content: "";
+	width: 20px;
+	height: 29px;
+	margin-right: 15px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.plr-address-adjust{
+	padding-left: 35px;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.plr-tel:before{
+	background-image: url('http://google.pluralmktdigital.com.br/assets/images/icon-smartphone.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	content: "";
+	margin-right: 15px;
+	width: 15px;
+	height: 23px;
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
+.plr-tel-adjust{
+	padding-right: 13px;
+}
+
+.plr-contact-info-item .social-link{
+	display: inline-block;
+}

@@ -1,0 +1,27 @@
+	/* Large Devices, Wide Screens */
+	@media only screen and (max-width : 1200px){
+ 
+	}
+ 
+	/* Medium Devices, Desktops */
+	@media only screen and (max-width : 992px){
+ 
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 768px){
+		.plr-logo-footer img{ display: block; margin: 0 auto; padding: 20px 0; }
+		.plr-contact-info-item{ width: 100%; text-align: center; padding: 20px 0; },
+		.plr-address-block{ margin-left: -10px; }
+		.plr-tel-block{ margin-left: -20px; }
+	}
+ 
+	/* Extra Small Devices, Phones */
+	@media only screen and (max-width : 480px){
+
+	}
+ 
+	/* Custom, iPhone Retina */
+	@media only screen and (max-width : 320px){
+
+	}

@@ -1,0 +1,61 @@
+/* modal */
+.btn-close-modal{
+	color: #000;
+	background-color: transparent;
+	border: none;
+	float: right;
+	font-size: 28px;
+	transition: all .3s;
+}
+
+.btn-close-modal:hover,.btn-close-modal:focus{
+	color: #e89622;
+}
+
+.plr-position-abs{
+	position: absolute;
+	text-transform: uppercase;
+}
+
+.plr-contact-form{
+	left: 0;
+	max-width: 500px;
+	padding: 10px 0 50px 50px;
+}
+
+.plr-form-lightbox{
+	padding-top: 45px;
+}
+
+.plr-form-lightbox input{
+	display: block;
+	border: 1px solid #555;
+	border-radius: 4px;
+	width: 100%;
+	padding: 15px;
+	font-size: 16px;
+	color: #2b2b2b;
+	margin-bottom: 20px;
+}
+
+.plr-form-lightbox select{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	display: block;
+    border: 1px solid #555;
+    border-radius: 4px;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    color: #2b2b2b;
+    margin-bottom: 20px;
+    background-image: url('http://google.pluralmktdigital.com.br/assets/images/arrow-down.png');
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+
+.btn-lightbox{
+	padding: 20px;
+	width: 100%;
+}

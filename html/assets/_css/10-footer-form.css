@@ -1,0 +1,57 @@
+/* contact form */
+.plr-contact{
+	position: relative;
+	min-height: 650px;
+}
+
+.plr-form-footer{
+	padding-top: 10px;
+}
+
+.plr-form-footer input{
+	display: block;
+	border: 1px solid #555;
+	border-radius: 4px;
+	width: 100%;
+	padding: 15px;
+	font-size: 16px;
+	color: #2b2b2b;
+	margin-bottom: 20px;
+}
+
+.plr-form-footer select{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	display: block;
+    border: 1px solid #555;
+    border-radius: 4px;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    color: #2b2b2b;
+    margin-bottom: 20px;
+    background-image: url('http://google.pluralmktdigital.com.br/assets/images/arrow-down.png');
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+
+.plr-form-buttons{
+	float: right;
+}
+
+.plr-map-marker{
+	background-color: #e5e5e5;
+    height: 645px;
+    position: absolute;
+    width: 55%;
+    top: 0;
+    right: 0;
+}
+
+#map{
+	height: 650px;
+    width: 57.9%;
+    position: absolute;
+    right: 0;
+}

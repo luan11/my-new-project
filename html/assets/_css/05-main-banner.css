@@ -1,0 +1,21 @@
+/* main banner */
+.plr-banner{
+	width: 100%;
+	background-image: url('http://google.pluralmktdigital.com.br/assets/images/banner-maratona.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.plr-banner-text-container{
+	padding-top: 140px;
+	padding-bottom: 115px;
+}
+
+.plr-banner-text-container p{
+	color: #fff;
+}
+
+.plr-banner-video-container{
+	padding: 130px 0;
+}

@@ -1,0 +1,96 @@
+/* secondary carousel */
+.plr-secondary-carousel-section{
+	background-color: #009739;
+	padding: 50px 0;
+}
+
+.plr-secondary-carousel-section h2{
+	color: #fff;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 40px;
+	width: 100%;
+}
+
+.plr-secondary-carousel{
+	padding-top: 50px;
+}
+
+.plr-secondary-carousel-item{
+	padding: 0 20px;
+	text-align: center;
+	position: relative;
+}
+
+.plr-secondary-carousel-item-container{
+	width: 100%;
+	padding-top: 90px;
+}
+
+.plr-secondary-carousel-item-img img{
+	position: absolute;
+	display: block;
+	border-radius: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 180px;
+	max-width: 180px;
+	width: 100%;
+	border: 5px solid #0e9c56;
+}
+
+.plr-secondary-carousel-item-img:before{
+	content: '';
+	width: 65px;
+	height: 50px;
+	display: block;
+	background-image: url('http://google.pluralmktdigital.com.br/assets/images/aspas-1.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 10%;
+	top: 27.5%;
+}
+
+.plr-secondary-carousel-item-img:after{
+	content: '';
+	width: 65px;
+	height: 50px;
+	display: block;
+	background-image: url('http://google.pluralmktdigital.com.br/assets/images/aspas-2.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 10%;
+	top: 27.5%;
+}
+
+.plr-secondary-carousel-item-subtitle{
+	background-color: #fff;
+	padding: 110px 30px 30px;
+	border-radius: 5px;
+	min-height: 325px;
+}
+
+.plr-secondary-carousel-item-container .plr-secondary-carousel-item-name{
+	font-size: 18px;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: uppercase;
+	color: #009739;
+	margin: 0;
+}
+
+.plr-secondary-carousel-item span{
+	color: #2b2b2b;
+}
+
+.plr-secondary-carousel-item p{
+	font-size: 16px;
+	color: #2b2b2b;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 20px;
+}

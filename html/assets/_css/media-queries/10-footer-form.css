@@ -1,0 +1,26 @@
+	/* Large Devices, Wide Screens */
+	@media only screen and (max-width : 1200px){
+ 
+	}
+ 
+	/* Medium Devices, Desktops */
+	@media only screen and (max-width : 992px){
+ 
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 768px){
+		.plr-contact-form{     position: relative; display: block; float: none; width: 100%; padding: 50px 0; margin: 0 auto; }
+		.plr-contact-form h3 { font-size: 36px; text-align: center; }
+		#map{ margin-top: 20px; position: relative; display: block; width: 100%; float: none; height: 300px; }
+	}
+ 
+	/* Extra Small Devices, Phones */
+	@media only screen and (max-width : 480px){
+		.plr-contact-form h3{ font-size: 28px; }
+	}
+ 
+	/* Custom, iPhone Retina */
+	@media only screen and (max-width : 320px){
+
+	}

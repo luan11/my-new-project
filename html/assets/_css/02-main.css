@@ -1,0 +1,28 @@
+dl, ol, p, ul{
+	margin: 20px 0;
+	color: #777;
+	line-height: 
+}
+
+.h1, h1{
+	color: #fff;
+	font-size: 40px;
+}
+
+.h2,h2{
+	font-size: 40px;
+	font-weight: 700;
+	color: #009638;
+}
+
+.div-separator{
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.hadjust{
+	min-height: 285px;
+}
+
+.plr-form-error{
+	background-color: #a83a3a;
+}
