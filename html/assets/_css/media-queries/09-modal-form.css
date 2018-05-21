@@ -10,8 +10,7 @@
 
 	/* Small Devices, Tablets */
 	@media only screen and (max-width : 768px){
-		
-	}
+		.plr-form-lightbox { padding-top: 5px; }
  
 	/* Extra Small Devices, Phones */
 	@media only screen and (max-width : 480px){
