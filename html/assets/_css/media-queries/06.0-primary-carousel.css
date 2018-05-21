@@ -19,7 +19,7 @@
 		.plr-carousel-primary-text p{ font-size: 14px; line-height: 18px; margin-bottom: 0; }
 		.plr-carousel-primary-image{ padding: 30px 0; }
 		.plr-carousel-primary-image-bg{ padding: 0; width: 100%; background: none;}
-		.plr-carousel-primary-image-bg img{ margin: 0; width: 100%;}
+		.plr-carousel-primary-image-bg img{ margin: 0; width: 100%; padding: 0 10px;}
 	}
  
 	/* Custom, iPhone Retina */
