@@ -235,5 +235,18 @@
         $('.burgermenu').toggleClass('opened');
         $('body').toggleClass('open-menu');
     });
+    // burguer menu function end
+
+    // scroll page smooth
+
+    var items = $('.plr-nav ul li a');
+
+    items.on('click',function(){
+        var selector = $(this).attr('href');
+        var pos = $(selector).offset().top;
+         $("html, body").animate({scrollTop: pos},700);
+    });
+
+    // scroll page smooth end
 
 }(window.jQuery, window, document));
